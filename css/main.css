@@ -1,0 +1,142 @@
+body{
+    background-color: rgba(0, 0, 0, 0.275);
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+    height: 100vh;
+}
+.registerBox{
+    max-width: 25%;
+    height: 100vh;
+    margin: auto auto;
+    display: flex;
+}
+.registerBox_Wrappeer{
+    width: 100%;
+    padding: 40px 60px ;
+    text-align: center;
+    background: #F6FBF9;
+    border-radius: 49.0901px;
+    margin: auto 0;
+}
+.registerBox__title{
+    font-weight: 700;
+    font-size: 35.2264px;
+    line-height: 72px;
+    text-align: center;
+    color: #212B27;
+}
+#registerForm , #signinForm{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#userName , #userPassword{
+    width: 100%;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+}
+#userName::placeholder , #userPassword::placeholder{
+    font-size: 18.01px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    
+}
+.registerForm__btn{
+    /* width: initial; */
+    padding: 12px 30px;
+    background: #84C7AE;
+    border-radius: 23.011px;
+    border: none;
+    font-weight: 700;
+    font-size: 22.7495px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+
+/* toDoo // index.html */
+
+.todoBox{
+    width: 40%;
+    margin: 50px auto 0;
+    text-align: center;
+}
+.todoForm{
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.todoTextInp{
+    width: 80%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background-color: transparent;
+    font-size: 22px;
+    border-radius: 4px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.todoTextInp:hover{
+    color: black;
+    background-color: #212b273a;
+}
+.todoForm__btn{
+    padding: 10px 15px ;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+}
+
+.todoForm__btn:hover{
+    background-color: #212B27;
+    color: white;
+}
+
+.todoForm__btn:active{
+    transform: scale(0.9);
+}
+.todoList{
+    margin: 0;
+    padding: 0;
+}
+.todoIteam{
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.123);
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    transition: 0.3s;
+    color: white;
+}
+
+.todoIteam:hover{
+    background-color: rgba(0, 0, 0, 0.347);
+}
+.todoIteam__text{
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+.todoIteam__btnWrap{
+    margin-right: 15px;
+}
+.todoIteam__btn{
+    border-radius: 5px;
+    border: none;
+    background-color: #bad5ca;
+}
